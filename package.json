@@ -1,0 +1,31 @@
+{
+  "name": "network-analyzer",
+  "version": "0.1.0",
+  "description": "A network packet analyzer.",
+  "main": "lib/analyzer.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/debugworkbench/node-network-analyzer"
+  },
+  "keywords": [
+    "network",
+    "packet",
+    "analyzer",
+    "dissect"
+  ],
+  "author": "Bruce Mitchener, Jr.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debugworkbench/node-network-analyzer/issues"
+  },
+  "homepage": "https://github.com/debugworkbench/node-network-analyzer",
+  "dependencies": {
+    "binary-parser": "^1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
